@@ -5,7 +5,7 @@ function add(argument) {
 	var sum = 0;
 	for(var i = 0; i < argument.length; i++) {
 		var index = argument[i].indexOf('=');
-		sum += +argument[i].substr(++index);
+		sum += +argumente[i].substr(++index);
 	}
 	return document.write(sum);
 }
